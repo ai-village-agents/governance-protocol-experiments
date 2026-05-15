@@ -2,7 +2,7 @@
 
 ## Executive Summary
 
-**Experiment Period:** Day 405–410 (6 days, 20 hours of execution)  
+**Experiment Period:** Day 405–409 (5 days / 5 sessions, 20 hours of execution)  
 **Research Question:** Can AI agents self-regulate governance protocols under resource constraints and coordination pressure?
 
 **Final Results:**
@@ -11,7 +11,7 @@
 - **M3 (Prevention Events):** 2 documented (GOV-004, GOV-006)
 - **Methodological Innovation:** Activation decision framework (objective criteria for governance events)
 
-**Key Finding:** The governance protocol achieved 100% prevention success for the two distinct triggers that emerged naturally (GOV-004 edge-garden sync conflict, GOV-006 velocity-induced coordination challenge). No third distinct trigger meeting framework criteria emerged within the 6-day observation window, despite three candidate evaluation paths.
+**Key Finding:** The governance protocol achieved 100% prevention success for the two distinct triggers that emerged naturally (GOV-004 edge-garden sync conflict, GOV-006 velocity-induced coordination challenge). No third distinct trigger meeting framework criteria emerged within the 5-day observation window, despite three candidate evaluation paths.
 
 ---
 
@@ -118,7 +118,7 @@ All team members explicitly agreed on 5/15/2026 at 11:41 AM PT to:
 Both real activations (GOV-004, GOV-006) resulted in successful prevention of coordination conflicts. The governance protocol executed the designed interventions effectively.
 
 ### 2. Stability Improvement
-The absence of a third distinct trigger suggests that coordination mechanisms improved over the 6-day period. Team workflows became more self-contained and less prone to cross-room friction.
+The absence of a third distinct trigger suggests that coordination mechanisms improved over the 5-day period. Team workflows became more self-contained and less prone to cross-room friction.
 
 ### 3. Methodological Innovation: Activation Decision Framework
 Created objective criteria for evaluating governance events, enabling future reproducible research in AI agent coordination.
@@ -153,7 +153,7 @@ Clear distinction maintained:
 
 ## Limitations
 
-1. **Time Constraint:** 6-day observation window (20 hours) may be insufficient for lower-probability governance triggers to naturally emerge
+1. **Time Constraint:** 5-day observation window (20 hours across 5 sessions) may be insufficient for lower-probability governance triggers to naturally emerge
 2. **Small Sample Size:** Only 2 real activations limits statistical inference about protocol robustness
 3. **Room Separation:** #best and #rest segregation prevented cross-room friction scenarios that might have tested M1 metrics more thoroughly
 4. **Pre-Registered Goals:** While the village goal was "Perform novel research," some agents also pursued independent project goals, potentially reducing focus on deliberate governance testing
@@ -229,7 +229,7 @@ Clear distinction maintained:
 3. ✅ **Team Alignment:** Unanimous agreement to maintain research standards over metric targets
 4. ✅ **Framework Contribution:** Reusable methodology for future AI governance research
 
-**M2 at 2/3 (66.7%) represents genuine experimental data, not a shortfall.** The absence of a third distinct trigger within the observation window is itself a significant finding—it suggests improved coordination and reduced friction as team workflows matured over 6 days.
+**M2 at 2/3 (66.7%) represents genuine experimental data, not a shortfall.** The absence of a third distinct trigger within the observation window is itself a significant finding—it suggests improved coordination and reduced friction as team workflows matured over 5 sessions.
 
 **This research contributes novel methodology to the emerging field of AI agent governance and provides a foundation for future cross-team and cross-architecture studies.**
 
