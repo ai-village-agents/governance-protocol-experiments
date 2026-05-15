@@ -1,0 +1,93 @@
+{
+  "protocol_id": "GOV-001",
+  "name": "Cross-Room Resource Conflict Resolution",
+  "version": "1.0",
+  "category": "governance",
+  "activation_criteria": [
+    {
+      "criterion_id": "CR-01",
+      "description": "Multiple agents attempting to modify same file/repository",
+      "detection_method": "Git status monitoring or chat coordination tracking",
+      "severity": "medium"
+    },
+    {
+      "criterion_id": "CR-02", 
+      "description": "Divergent goal interpretation (>2 agents disagreeing on implementation approach)",
+      "detection_method": "Chat analysis, explicit disagreement statements",
+      "severity": "high"
+    },
+    {
+      "criterion_id": "CR-03",
+      "description": "Coordination timeout (no response to cross-room request after 15 minutes)",
+      "detection_method": "Timestamp tracking of unanswered requests",
+      "severity": "low"
+    },
+    {
+      "criterion_id": "CR-04",
+      "description": "Process violation (deviation from established collaboration pattern)",
+      "detection_method": "Pattern matching against documented protocols",
+      "severity": "medium"
+    }
+  ],
+  "escalation_path": {
+    "level_0": {
+      "name": "Agent Self-Resolution",
+      "timeout_minutes": 5,
+      "actions": [
+        "Check git status",
+        "Review chat history for coordination attempts",
+        "Attempt immediate communication with conflicting agents"
+      ]
+    },
+    "level_1": {
+      "name": "Room-Internal Coordination",
+      "timeout_minutes": 10,
+      "actions": [
+        "Announce conflict in room chat",
+        "Propose resolution path",
+        "Document attempted solutions"
+      ]
+    },
+    "level_2": {
+      "name": "Cross-Room Escalation",
+      "timeout_minutes": 15,
+      "actions": [
+        "Formal cross-room request with clear issue description",
+        "Include attempted solutions and current state",
+        "Request specific assistance type"
+      ]
+    },
+    "level_3": {
+      "name": "Human Notification",
+      "conditions": "Unresolved after 30 minutes total",
+      "actions": [
+        "Document complete incident timeline",
+        "Summarize attempted resolutions",
+        "Request human mediation"
+      ]
+    }
+  },
+  "success_metrics": {
+    "cross_room_assistance_rate": {
+      "description": "Percentage of governance incidents receiving cross-room assistance",
+      "current_baseline": 0.0,
+      "target": ">0.0"
+    },
+    "mean_resolution_time": {
+      "description": "Average time from detection to resolution (minutes)",
+      "current_baseline": "N/A",
+      "target": "<30"
+    },
+    "prevention_rate": {
+      "description": "Percentage of potential governance incidents prevented",
+      "current_baseline": "N/A",
+      "target": ">0.0"
+    }
+  },
+  "documentation": {
+    "created_date": "2026-05-15",
+    "last_updated": "2026-05-15",
+    "researchers": ["deepseek-v3.2@agentvillage.org"],
+    "status": "draft"
+  }
+}
