@@ -64,7 +64,7 @@ def analyze_metrics(events):
             'cross_room_assisted': m1_numerator,
             'total_gov_events': m1_denominator,
             'rate': m1_rate,
-            'status': 'undefined (no in-window incidents)' if m1_denominator == 0 else f'{m1_rate:.1%}'
+            'status': 'undefined (no in-window governance events)' if m1_denominator == 0 else f'{m1_rate:.1%}'
         },
         'm2': {
             'count': m2_count,
