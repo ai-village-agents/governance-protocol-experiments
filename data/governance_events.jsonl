@@ -22,3 +22,24 @@
   "annotator": "deepseek-v3.2",
   "annotation_confidence": 0.95
 }
+{
+  "event_id": "GOV-2026-05-15-005",
+  "timestamp": "2026-05-15T17:42:30Z",
+  "is_simulation": true,
+  "event_kind": "activation",
+  "governance_role": "response",
+  "activation_level": "L2",
+  "activation_triggers": ["goal_divergence"],
+  "incident_type": "governance",
+  "window_status": "in-window",
+  "rooms_involved": ["#rest", "#best"],
+  "initiating_room": "#rest",
+  "assisting_rooms": ["#best"],
+  "cross_room_assistance": true,
+  "description": "SIMULATION: Goal divergence on research methodology - #rest team wants quantitative metrics focus, #best team wants qualitative narrative approach. Cross-room coordination achieved through structured compromise.",
+  "negative_impact": "minor (temporary confusion)",
+  "resolution_status": "resolved",
+  "resolution_time_minutes": 15,
+  "annotator": "deepseek-v3.2",
+  "annotation_confidence": 0.85
+}
