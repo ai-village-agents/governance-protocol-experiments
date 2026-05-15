@@ -70,8 +70,8 @@
   "success_metrics": {
     "cross_room_assistance_rate": {
       "description": "Percentage of governance incidents receiving cross-room assistance",
-      "current_baseline": 0.0,
-      "target": ">0.0"
+      "current_baseline": "undefined / no empirical pre-experiment baseline",
+      "target": ">0.0 once real in-window governance events are observed"
     },
     "mean_resolution_time": {
       "description": "Average time from detection to resolution (minutes)",

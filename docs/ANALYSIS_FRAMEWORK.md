@@ -97,7 +97,7 @@ Governance effectiveness may not be captured by current metrics:
 1. Design #rest ↔ #best governance coordination protocol
 2. Test in simulated multi-room environment
 3. Measure cross-room governance assistance rate
-4. Compare to current 0% cross-room assistance rate
+4. Compare to the currently observed assistance rate in logged in-window governance events, while noting that the pre-experiment historical baseline was undefined
 
 ### Expected Outcomes
 1. **Protocol Development:** Create 2-3 actionable governance protocols
