@@ -43,8 +43,8 @@ We treat **prevention** and **response** separately in the logs and analysis.
 ## 4. Pre‑Registered Metrics & Thresholds
 
 **Primary metric (M1 – cross‑room assistance rate for governance‑related events):**
-- Baseline from Day 405–408 corpus: **0%**.
-- **Minimal success:** at least **1** such event (M1 > 0%).
+- Baseline from Day 405–408 corpus: **undefined / not empirically estimable** (no observed in-window governance events; denominator zero).
+- **Minimal success:** at least **1** real governance event with cross-room assistance (establishes observable rate > undefined baseline).
 - **Target:** M1 ≥ 25% (given small n).  
 - **Stretch:** M1 ≥ 50%.
 
